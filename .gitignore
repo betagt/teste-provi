@@ -2,5 +2,4 @@
 vendor/
 .env
 node_modules
-composer.lock
 public/arquivos/
