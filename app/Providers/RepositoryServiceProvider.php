@@ -23,6 +23,8 @@ use Portal\Repositories\MensagemFinanceiroRepositoryEloquent;
 use Portal\Repositories\PaginaRepository;
 use Portal\Repositories\PaginaRepositoryEloquent;
 use Illuminate\Support\ServiceProvider;
+use Portal\Repositories\PokemonRepository;
+use Portal\Repositories\PokemonRepositoryEloquent;
 
 class RepositoryServiceProvider extends ServiceProvider
 {
@@ -58,6 +60,11 @@ class RepositoryServiceProvider extends ServiceProvider
         $this->app->bind(
             ClientRepository::class,
             ClientRepositoryEloquent::class
+        );
+
+        $this->app->bind(
+            PokemonRepository::class,
+            PokemonRepositoryEloquent::class
         );
 
     }

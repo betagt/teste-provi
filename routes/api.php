@@ -17,6 +17,7 @@ Route::group(['prefix'=>'v1','middleware' => ['cors']], function () {
     \Portal\Rotas\ClienteRoute::run();
     \Portal\Rotas\PaginaRoute::run();
     \Portal\Rotas\ConfiguracaoRoute::run();
+    \Portal\Rotas\PokemonRoute::run();
 });
 
 
