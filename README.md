@@ -1,31 +1,20 @@
-# Project Name
+POST    /cadastro
+/admin/user/registrar
 
-TODO: Write a project description
+POST    /login
+/api/v1/oauth/token
 
-## Installation
+GET     /pokemons
+/api/v1/front/pokemon
 
-TODO: Describe the installation process
+GET     /pokemon/:id
+/api/v1/front/pokemon/{id}
 
-## Usage
+POST    /pokemon/add
+/api/v1/front/pokemon/add
 
-TODO: Write usage instructions
+PUT     /pokemon/:id
+/api/v1/front/pokemon/{id}
 
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
-## History
-
-TODO: Write history
-
-## Credits
-
-TODO: Write credits
-
-## License
-
-TODO: Write license
+DELETE  /pokemon/:id
+/api/v1/front/pokemon/{id}
