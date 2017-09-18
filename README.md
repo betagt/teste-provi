@@ -10,11 +10,21 @@ GET     /pokemons
 GET     /pokemon/:id
 /api/v1/front/pokemon/{id}
 
+
 POST    /pokemon/add
 /api/v1/front/pokemon/add
 
+{
+    nome:'string'
+}
+
 PUT     /pokemon/:id
 /api/v1/front/pokemon/{id}
+
+
+{
+    nome:'string'
+}
 
 DELETE  /pokemon/:id
 /api/v1/front/pokemon/{id}
